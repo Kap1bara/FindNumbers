@@ -6,6 +6,8 @@
 #include <string>
 #include <cstring>
 
+#define MAXLINE_SIZE 1024
+
 class Cli
 {
 public:
