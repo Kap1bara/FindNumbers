@@ -19,6 +19,9 @@ void Cli::runUDP(){
 	char recvline[MAXLINE_SIZE*2+1];
 	std::string sendline;
 	getline(std::cin,sendline);
+	if(sendline.size()>MAXLINE_SIZE){
+		sendline.resize(MAXLINE_SIZE);
+	}
 	sendto(sockfd,sendline.c_str(),sendline.size()+1,0,
 		reinterpret_cast<SA *> (&servaddr),sizeof(servaddr));
 	recvfrom(sockfd,recvline,MAXLINE_SIZE*2+1,0,NULL,NULL);
