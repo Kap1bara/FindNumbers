@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/cli/cli.cpp
+cli.hpp
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/cli/cli.hpp
+
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/cli/cli.hpp
+../wrappers/wrappers.hpp
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/wrappers/wrappers.hpp
+iostream
+-
+string
+-
+cstring
+-
+
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/cli/client.cpp
+cli.hpp
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/cli/cli.hpp
+
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/wrappers/wrappers.cpp
+wrappers.hpp
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/wrappers/wrappers.hpp
+iostream
+-
+
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/wrappers/wrappers.hpp
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+

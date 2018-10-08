@@ -1,0 +1,4 @@
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/build/CMakeFiles/serv.dir
+/mnt/c/Users/guestUser/source/Протей/FindNumbers/build/CMakeFiles/cli.dir

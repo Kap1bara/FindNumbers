@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wextra -Werror -Wall -Wextra -Werror -pthread   CMakeFiles/serv.dir/serv/serv.cpp.o CMakeFiles/serv.dir/serv/server.cpp.o CMakeFiles/serv.dir/wrappers/wrappers.cpp.o  -o serv -rdynamic -lgmpxx -lgmp 

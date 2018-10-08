@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wextra -Werror -Wall -Wextra -Werror -pthread   CMakeFiles/cli.dir/cli/client.cpp.o CMakeFiles/cli.dir/cli/cli.cpp.o CMakeFiles/cli.dir/wrappers/wrappers.cpp.o  -o cli -rdynamic 
