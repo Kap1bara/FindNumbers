@@ -22,11 +22,11 @@ int main(int argc, char  *argv[])
 		opt = getopt( argc, argv, optString );
 	}
 	Serv server(globalArgs.port);
-	/*std::thread TCPserver(&Serv::runTCP,&server);
+	std::thread TCPserver(&Serv::runTCP,&server);
 	std::thread UDPserver(&Serv::runUDP,&server);
 	TCPserver.join();
-	UDPserver.join();*/
-	server.runTCP();
+	UDPserver.join();
+	//server.runTCP();
 	
 	return 0;
 }
